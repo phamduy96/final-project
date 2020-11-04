@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mediamart</title>
+    <script src="./vendor/fontawesome/js/all.min.js"></script>
+    <script src="./vendor/bootstrap/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.min.css" />
+    <link rel="stylesheet" href="./trangchu.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header__info row">
+            <div class="header__logo">
+                <a id="logo" href=""></a>
+            </div>
+            <div class="header__subinfo">
+                <div class="header__subinfo-size text-white">
+                    <a class="text-white" href="">19006788</a>
+                    <p>Tư vấn khách hàng</p>
+                </div>
+                <div class="header__subinfo-size text-white">
+                    <a class="text-white" href="">Xem 230 Siêu thị ></a>
+                    <p>Mở cửa 8:00 - 21:30</p>
+                </div>
+                <div class="header__subinfo-size">
+                    <a class="d-block" style="color: yellow;" href="">Back to school</a>
+                    <a class="d-block" style="color: yellow;" href="">Laptop giảm 8 triệu</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__contact">
+            <div class="header__linkfind">
+                <a class="text-white mr-2" href="">TUYỂN DỤNG</a>
+                <a class="text-white mr-2" href="">TIN TỨC</a>
+                <a class="text-white  mr-2" style="font-size: 12px;" href="">Bản tin Khuyến mại</a>
+                <a class="text-white" style="font-size: 12px;" href="">Phương thức thanh toán</a>
+            </div>
+            <div class="header__search">
+                <input style="width: 100%; height: 26px;border: none; outline: none; text-align:center; margin-top: 10px;font-size: 13px;" type="text" placeholder="Bạn cần tìm hay tư vấn gì hôm nay...">
+                <div id="iconsearch" style="background-color: rgb(230, 219, 219);width: 30px; height: 26px;">
+                    <span style="font-size: large;color: tomato; margin-left: 5px;"><i class="fas fa-search"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="menu__catalog">
+            <span id="icon-navibar" style="margin-left: 5%;"><i class="fas fa-bars"></i></span>
+            <span style="margin-left: 8%;">DANH MỤC SẢN PHẨM</span>
+            <ul class="catalog">
+                <li id="condinator">
+                    <div>
+                        <img src="https://cdn.mediamart.vn/Menu/span-stylecolor00aeefdieu-hoa-nhiet-dospan-93uOUW.png" alt="">
+                        <a href="">Điều hòa nhiệt độ</a>
+                        <div class="ct-condinator">
+                            <div class="ct-brand-co">
+                                <a style="color:  red;" href="">THƯƠNG HIỆU</a>
+                                <hr style="margin: 0px;">
+                                <a href="">Điều hòa Panasonic</a>
+                                <a href="">Điều hòa Sharp</a>
+                                <a href="">Điều hòa Dakin</a>
+                                <a href="">Điều hòa LG</a>
+                                <a href="">Điều hòa Samsung</a>
+                                <a href="">Điều hòa Electrolux</a>
+                                <a href="">Điều hòa Gree</a>
+                                <a href="">Điều hòa Mide</a>
+                                <a href="">Điều hòa Hitachi</a>
+                                <a href="">Điều hòa MDV</a>
+                                <a href="">Điều hòa Casper</a>
+                                <a href="">Điều hòa Asanzo</a>
+                                <a href="">Điều hòa AQUA</a>
+                                <a href="">Xem tất cả điều hòa</a>
+                            </div>
+                            <div class="ct-select-standert-co">
+                                <a style="color:  red;" href="">TIÊU CHÍ CHỌN LỰA</a>
+                                <hr style="margin: 0px;">
+                                <a href="">1 chiều inverter</a>
+                                <a href="">2 chiều inverter</a>
+                                <a href="">1 chiều thường</a>
+                                <a href="">2 chiều thường</a>
+                                <a href="">>= 9.000BTU</a>
+                                <a href="">>= 12.000BTU</a>
+                                <a href="">>= 16.000BTU</a>
+                                <a href="">>= 18.000BTU</a>
+                                <a href="">>= 24.000BTU</a>
+                                <a href="">>= 28.000BTU</a>
+                                <a href="">Model mới 2020</a>
+                                <a href="">Xả hàng trưng bày -50%</a>
+                                <a href="">Điều hòa dưới 7 triệu</a>
+                                <a href="">Điều hòa trả góp 0%</a>
+                            </div>
+                            <div class="ct-styleof-co">
+                                <a style="color:  red;" href="">KIỂU ĐIỀU HÒA</a>
+                                <hr style="margin: 0px;">
+                                <a href="">Điều hòa treo tường</a>
+                                <a href="">Điều hòa tủ đứng</a>
+                                <a href="">Điều hòa âm trần</a>
+                                <a href="">Điều hòa nối ống gió</a>
+                                <a href="">Điều hòa Muli</a>
+                                <a href="">Điều hòa VRV</a>
+                                <a href="">Xem tất cả điều hòa</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="tivi">
+                    <div>
+                        <img src="https://cdn.mediamart.vn/Menu/tivi-loa-am-thanh-Y40Kbf.png" alt="">
+                        <a href="">Tivi, Loa - Âm thanh</a>
+                        <div class="ct-tivi">
+                            <div class="ct-brand-tivi">
+                                <a style="color:  red;" href="">THƯƠNG HIỆU</a>
+                                <hr style="margin: 0px;">
+                                <a href="">Tivi Sony</a>
+                                <a href="">Tivi Samsung</a>
+                                <a href="">Tivi LG</a>
+                                <a href="">Tivi Sharp</a>
+                                <a href="">Tivi TCL</a>
+                                <a href="">Tivi Panasonic</a>
+                                <a href="">Tivi Toshiba</a>
+                                <a href="">Tivi Skyworth</a>
+                                <a href="">Tivi Asanzo</a>
+                                <a href="">Tivi Casper</a>
+                                <a href="">Xem tất cả tivi</a>
+                            </div>
+                            <div class="ct-type-tivi">
+                                <a style="color:  red;" href="">LOẠI TIVI</a>
+                                <hr style="margin: 0px;">
+                                <a href="">Tivi 8k</a>
+                                <a href="">Tivi 4k</a>
+                                <a href="">Samsung QLED TV</a>
+                                <a href="">Sony QLED TV</a>
+                                <a href="">LG QLED TV</a>
+                                <a href="">Smart TV</a>
+                                <a href="">Lifestyle TV</a>
+                                <a href="">TV LED thường</a>
+                                <a href="">Tivi 40 - 49 inch</a>
+                                <a href="">Tivi 55 - 60 inch </a>
+                            </div>
+                            <div class="ct-select-tivi">
+                                <a style="color:  red;" href="">CHỌN TIVI</a>
+                                <hr style="margin: 0px;">
+                                <a href="">Tivi Mới 2020</a>
+                                <a href="">Tivi dưới 5 triệu</a>
+                                <a href="">Tivi từ 5 - 7 triệu</a>
+                                <a href="">Tivi từ 7 - 10 triệu</a>
+                                <a href="">Tivi từ 10 - 15 triệu</a>
+                                <a href="">Tivi từ 15 - 20 triệu</a>
+                                <a href="">Tivi trên 20 triệu</a>
+                                <a href="">Tivi cao cấp (>50 triệu)</a>
+                            </div>
+                            <div class="ct-accessories-tivi">
+                                <a style="color:  red;" href="">PHỤ KIỆN ĐIỆN TỬ</a>
+                                <hr style="margin: 0px;">
+                                <a href="">Giá treo</a>
+                                <a href="">Dây cáp Tivi</a>
+                                <a href="">Bộ chuyển đổi</a>
+                                <a href="">Chuột bàn phím</a>
+                                <a href="">Điều khiển Tivi</a>
+                                <a href="">USB wifi</a>
+                                <a href="">Micro</a>
+                                <a href="">Anten Tivi</a>
+                                <a href="">Kính 3D</a>
+                                <a href="">Tivi Box</a>
+                            </div>
+                            <div class="ct-sound-tivi">
+                                <a style="color:  red;" href="">DÀN ÂM THANH</a>
+                                <hr style="margin: 0px;">
+                                <a href="">Dàn âm thanh Sony</a>
+                                <a href="">Dàn âm thanh 2.1</a>
+                                <a href="">Dàn âm thanh 4.1/4.2</a>
+                                <a href="">Dàn âm thanh 5.1</a>
+                                <a href=""><u>LOA SOUND BAR</u></a>
+                                <a href="">Sound bar Samsung</a>
+                                <a href="">Sound bar LG</a>
+                                <a href="">Sound bar Sony</a>
+                                <a href="">Sound bar 2.0/2.1</a>
+                                <a href="">Sound bar 3.0/3.1</a>
+                                <a href="">Sound bar 5.1</a>
+                            </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://cdn.mediamart.vn/Menu/may-giat-may-say-V7o6ZM.png" alt="">
+                        <a href="">Máy giặt, Máy sấy quần áo</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://cdn.mediamart.vn/Menu/tu-lanh-tu-dong-tu-mat-65D88R.png" alt="">
+                        <a href="">Tủ lạnh, Tủ đông, Tủ mát</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://cdn.mediamart.vn/Menu/gia-dung-thiet-bi-bep-PpT51z.png" alt="">
+                        <a href="">Gia dụng, Thiết bị bếp</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://cdn.mediamart.vn/Menu/span-stylecolore3007bquat-mat-cac-loaispan-b0F515.png" alt="">
+                        <a href="">Quạt mát các loại</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://cdn.mediamart.vn/Menu/span-stylecolore3007bnoi-chien-khong-dauspan-WVYq5Y.png" alt="">
+                        <a href="">Nồi chiên không dầu</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://cdn.mediamart.vn/Menu/dien-thoai-may-tinh-bang-f7yONc.png" alt="">
+                        <a href="">Smartphone, Máy tính bảng</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://cdn.mediamart.vn/Menu/span-stylecolore3007blaptop-laptop-gamingspan-WrrYzT.png" alt="">
+                        <a href="">Laptop, Laptop gaming</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://cdn.mediamart.vn/Menu/thiet-bi-van-phong-G62OZ3.png" alt="">
+                        <a href="">Thiết bị văn phòng</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://cdn.mediamart.vn/Menu/ky-thuat-so-F6xwJJ.png" alt="">
+                        <a href="">Kỹ thuật số, Phụ kiện</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="https://cdn.mediamart.vn/Menu/span-stylecolor00aeefdieu-hoa-nhiet-dospan-93uOUW.png" alt="">
+                        <a href="">Nội thất, Ghế Massage</a>
+                    </div>
+                </li>
+            </ul>
+        </div>  
+        <div class="menu__sale">
+            <div class="sale" style="width: 32%; font-size: 13px;">
+                <span style="margin-left: 10px;"><img src="https://cdn.mediamart.vn/Menu/hot-deal-8G27xh.png" alt=""></span>
+                <span>Máy lọc nước giảm giá đến 30% + Quà 2 triệu</span>
+            </div>
+            <div class="sale" style="width: 13%; font-size: 13px; padding-left: 5px;">
+                <span><img src="https://cdn.mediamart.vn/Menu/hot-deal-8G27xh.png"></span>
+                <span>KHUYẾN MẠI</span>
+            </div>
+            <div class="sale" style="width: 23%; font-size: 13px;">
+                <span><img src="https://cdn.mediamart.vn/Menu/3-ngay-vang-san-hang-cong-nghe-gia-soc-50-223243-da34f8.png"></span>
+                <span>Nồi cơm điện giá chỉ 299.000Đ</span>
+            </div>
+            <div class="sale" style="width: 32%; font-size: 13px;">
+                <span><img src="https://cdn.mediamart.vn/Menu/sam-phone-tai-gia-tang-loa-soundbar-KtXIp7.png"></span>
+                <span>Smartphone giảm giá đến 2 triệu + Trả góp 0%</span>
+            </div>
+        </div>     
+    </div>
+    <div class="baner">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./vendor/img/baner1.png" class="d-block w-100" alt="anh">
+              </div>
+              <div class="carousel-item">
+                <img src="./vendor/img/baner2.png" class="d-block w-100" alt="anh">
+              </div>
+              <div class="carousel-item">
+                <img src="./vendor/img/baner3.png" class="d-block w-100" alt="anh">
+              </div>
+              <div class="carousel-item">
+                <img src="./vendor/img/baner4.png" class="d-block w-100" alt="anh">
+              </div>
+              <div class="carousel-item">
+                <img src="./vendor/img/baner5.jpg" class="d-block w-100" alt="anh">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" style="width:30px;height:50px;color: red;" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"  style="width:30px;height:50px;color: red;" aria-hidden="true" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="consult">
+            <h6>TƯ VẤN SẢN PHẨM - VIDEO</h6>
+            <a href="">FLASH SALE 27/10: Tủ lạnh, Máy giặt "Rẻ" chưa từng có!</a>
+            <hr style="margin: 0px;">
+            <a href="">Tưng bừng khuyến mãi - Mừng ngày phụ nữ Việt Nam 20/10 "Giảm giá sốc"</a>
+            <hr style="margin: 0px;">
+            <div>
+                <img style="width: 100%;" src="https://cdn.mediamart.vn/Banner/righthome-thang-vang-pana-67OxaC-vq.png" alt="">
+                <img style="width: 100%;" src="https://cdn.mediamart.vn/Banner/righthome-thang-vang-elec-JTwN3Z-vq.png" alt="">
+                <img style="width: 100%;" src="https://cdn.mediamart.vn/Banner/righthomemln-102020-dL06u5-vq.png" alt="">
+                <img style="width: 100%;" src="https://cdn.mediamart.vn/Banner/right-home-6-chuyen-trang-midea-3cQ01n-vq.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content__sale-today">
+            <div>
+                <img src="./vendor/img/bane-saletoday.png" alt="">
+            </div>
+            <div class="sale_product-today row">
+                <a class="col-md-4" href=""><img src="./vendor/img/sale-today1.png" alt=""></a>
+                <a class="col-md-4" href=""><img src="./vendor/img/sale-today2.png" alt=""></a>
+                <a class="col-md-4" href=""><img src="./vendor/img/sale-today3.png" alt=""></a>
+            </div>
+        </div>
+        <div class="content__sale-inmoth">
+            <div>
+                <img style="width: 100%;height:100%;" src="./vendor/img/baner-sale-inmoth.png" alt="">
+            </div>
+            <div class="catalog__sale row">
+                <ul class="col-md-12 col-lg-6">
+                    <li><a href="">Tivi, âm thanh</a></li>
+                    <li><a href="">Máy giặt</a></li>
+                    <li><a href="">Tủ lạnh</a></li>
+                    <li><a href="">Bình nóng lạnh</a></li>
+                </ul>
+                <ul class="col-md-6 col-12">
+                    <li><a href="">Gia dụng</a></li>
+                    <li><a href="">Máy lọc nước</a></li>
+                    <li><a href="">Điện thoại</a></li>
+                    <li><a href="">Laptop</a></li>
+                </ul>
+            </div>
+            <div class="catalog__product-sale row">
+                <!-- phần product sale -->
+            </div>
+        </div>
+        <div class="content__smartphone row">
+            <div class="typeof__mediamart">
+               <div class="logo-typeof__mediamart col-2">
+                  <span style="font-size: xx-large"><i class="fas fa-mobile-alt"></i></span>
+                  <span class="title__mediamart">ĐIỆN THOẠI</span>
+               </div>
+               <div class="col-10">
+                   <ul class="list-typeof__mediamart">
+                       <li><a href="">Galaxy M21</a></li>
+                       <li><a href="">Galaxy A30s</a></li>
+                       <li><a href="">iPhone chính hãng</a></li>
+                       <li><a href="">Galaxy A10s</a></li>
+                       <li><a href="">Giá từ 3 - 6 triệu</a></li>
+                       <li><a href="">Giá từ 6 - 10 triệu</a></li>
+                       <li><a href="">trả góp 0%</a></li>
+                   </ul>
+               </div>
+            </div>
+            <div class="baner__mediamart row">
+                <img style="padding: 0;" class="col-6" src="https://cdn.mediamart.vn/Banner/home-cate-2020-a51-nPwwPW-vq.png" alt="">
+                <img style="padding: 0;"  class="col-6" src="https://cdn.mediamart.vn/Banner/hcate-a53-yZ815n-vq.png" alt="">
+            </div>
+            <div class="menufacture__mediamart row">
+                <div class="col-12 col-md-6" style="padding: 0;line-height: 70px;">
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/samsung-2XG2f2.png" alt=""></a>
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/apple-7HolmJ.png" alt=""></a>
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/oppo-0bI09D.png" alt=""></a>
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/vsmart-r72KM0.png" alt=""></a>
+                </div>
+                <div class="col-12 col-md-6" style="padding: 0;line-height: 70px;">
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/nokia-AC0wAF.png" alt=""></a>
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/vivo-7y2a02.png" alt=""></a>
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/huawei-iy92IH.png" alt=""></a>
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/realme-46XwW1.png" alt=""></a>
+                </div>
+            </div>
+            <div class="catalog__product-smartphone row">
+                   <!-- phần smartphone product -->
+            </div>
+        </div>
+        <div class="content__laptop row">
+            <div class="typeof__mediamart">
+               <div class="logo-typeof__mediamart col-2" style="background-color: #12a89d;">
+                  <span style="font-size: xx-large"><i class="fas fa-laptop"></i></span>
+                  <span class="title__mediamart">LAPTOP</span>
+               </div>
+               <div class="col-10">
+                   <ul class="list-typeof__mediamart">
+                       <li><a href="">Laptop 2 màn hình</a></li>
+                       <li><a href="">CPU thế hệ 10 (new)</a></li>
+                       <li><a href="">CPU core i7</a></li>
+                       <li><a href="">CPU core i5</a></li>
+                       <li><a href="">CPU core i3</a></li>
+                       <li><a href="">Màn hình xoay gập 360 độ</a></li>
+                       <li><a href="">Học tập và Văn phòng</a></li>
+                   </ul>
+               </div>
+            </div>
+            <div class="baner__mediamart row">
+                <img style="padding: 0;" class="col-6" src="https://cdn.mediamart.vn/Banner/hcate-lap-2020thang-11-1PCq9C-vq.png" alt="">
+                <img style="padding: 0;"  class="col-6" src="https://cdn.mediamart.vn/Banner/hcate-lap-2020thang-112-i6ihvL-vq.png" alt="">
+            </div>
+            <div class="menufacture__mediamart row">
+                <div class="col-12 col-md-6" style="padding: 0;line-height: 70px;">
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/dell-yj75Y9.png" alt=""></a>
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/asus-VNp1C8.png" alt=""></a>
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/lenovo-3m52fa.png" alt=""></a>
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/hp-J2CPpQ.png" alt=""></a>
+                </div>
+                <div class="col-12 col-md-6" style="padding: 0;line-height: 70px;">
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/acer-s3VgjW.png" alt=""></a>
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/macbook-TmlD01.png" alt=""></a>
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/msi-1Sqfxe.png" alt=""></a>
+                    <a href=""><img src="https://cdn.mediamart.vn/ProductBrand/lg-OI70q3.png" alt=""></a>
+                </div>
+            </div>
+            <div class="catalog__product-laptop row">
+                   <!-- phần laptop product -->
+            </div>
+        </div>
+        <div class="content__accessories row">
+            <div class="typeof__mediamart">
+               <div class="logo-typeof__mediamart col-2" style="background-color: #e3007b;">
+                  <span style="font-size: xx-large"><i class="fas fa-headphones"></i></span>
+                  <span class="title__mediamart">PHỤ KIỆN</span>
+               </div>
+               <div class="col-10">
+                   <ul class="list-typeof__mediamart">
+                       <li><a href="">HHD gắn ngoài</a></li>
+                       <li><a href="">USB</a></li>
+                       <li><a href="">Chuột máy tính</a></li>
+                       <li><a href="">Bàn phím</a></li>
+                       <li><a href="">Loa máy tính</a></li>
+                       <li><a href="">Tai nghe</a></li>
+                       <li><a href="">Camera màn hình</a></li>
+                   </ul>
+               </div>
+            </div>
+            <div class="baner__mediamart row">
+                <img style="padding: 0;" class="col-6" src="https://cdn.mediamart.vn/Banner/hcate-pk-2020-loa-keo-thang-10-hsz2H1-vq.png" alt="">
+                <img style="padding: 0;"  class="col-6" src="https://cdn.mediamart.vn/Banner/hcate-pk-2020dong-ho-apple-lFkTa2-vq.png" alt="">
+            </div>
+            <div class="catalog__accessories row">
+                   <!-- phần accessories -->
+            </div>
+        </div>
+    </div>
+    <div class="consulting-channel">
+        <p><h3>Kênh Video Tư Vấn Sản Phẩm</h3></p>
+        <div class="video-consulting row">
+            <div class="video-main col-12 col-md-6">
+                <iframe style="padding-right: 5px; padding-bottom: 5px;" width="100%" height="100%" src="https://www.youtube.com/embed/q-z5A9wSEA8" frameborder="0"
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-extra col-12 col-md-6">
+                <iframe style="padding-right: 5px;" width="50%" src="https://www.youtube.com/embed/gGrKFtqiNlI" frameborder="0" allow="accelerometer; 
+                autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="50%" src="https://www.youtube.com/embed/C31MHyFef9M" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe style="padding-right: 5px;" width="50%" src="https://www.youtube.com/embed/iKAtSyTtxpQ" frameborder="0" allow="accelerometer; autoplay;
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="50%" src="https://www.youtube.com/embed/SL5BVWKfbTM" frameborder="0" allow="accelerometer; autoplay;
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <hr>
+        <div class="footer__title row">
+            <div class="footer__title-product col-3">
+                <div><img src="https://lib.mediamart.vn/Content/css/images/icon-hang-chinh-hang.png" alt=""></div>
+                <div style="margin-left: 10px;">
+                    <span style="display: block;color: #e3007b;font-size: 14px;">Sản phẩm, hàng hóa</span>
+                    <span style="display: block;color: #e3007b;font-size: 14px;">Chính hãng đa dạng phong phú</span>
+                </div>
+            </div>
+            <div class="footer__title-product col-3">
+                <div><img src="https://lib.mediamart.vn/Content/css/images/icon-kmkn.png" alt=""></div>
+                <div style="margin-left: 10px;">
+                    <span style="display: block;color: #e3007b;font-size: 14px;">Luôn luôn giá rẻ</span>
+                    <span style="display: block;color: #e3007b;font-size: 14px;">Khuyến mãi không ngừng</span>
+                </div>
+            </div>
+            <div class="footer__title-product col-3">
+                <div><img src="https://lib.mediamart.vn/Content/css/images/icon-dv.png" alt=""></div>
+                <div style="margin-left: 10px;">
+                    <span style="display: block;color: #e3007b;font-size: 14px;">Dịch vụ</span>
+                    <span style="display: block;color: #e3007b;font-size: 14px;">Chăm sóc khách hàng uy tín</span>
+                </div>
+            </div>
+            <div class="footer__title-product col-3">
+                <div><img src="https://lib.mediamart.vn/Content/css/images/icon-hang-chinh-hang.png" alt=""></div>
+                <div style="margin-left: 10px;">
+                    <span style="display: block;color: #e3007b;font-size: 14px;">Tư vấn khách hàng</span>
+                    <span style="display: block;color: #e3007b;font-size: 14px;">1900 6788</span>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer__pay col-12">
+            <span style="color: blue;">Phương thức thanh toán</span>
+            <img style="margin-left: 10px;" src="https://lib.mediamart.vn/Content/css/images/icon-cod.png" alt="">
+            <img style="margin-left: 10px;" src="https://lib.mediamart.vn/Content/css/images/icon-vnpay.png" alt="">
+            <img style="margin-left: 10px;" src="https://lib.mediamart.vn/Content/css/images/icon-vnpay.png" alt="">
+            <img style="margin-left: 10px;" src="https://lib.mediamart.vn/Content/css/images/icon-visa.png" alt="">
+            <img style="margin-left: 10px;" src="https://lib.mediamart.vn/Content/css/images/icon-visa.png" alt="">
+        </div>
+        <hr>
+        <div class="footer__sytem col-12">
+            <h3 style="color: blue;">HỆ THỐNG SIÊU THỊ ĐIỆN MÁY MEDIAMART</h3>
+            <P style="color: #e3007b;">Sắp khai trương:</P>
+            <div>
+                <p>MEDIAMART LƯƠNG NGỌC KHUYẾN - Số 500, đường Nguyễn Ngọc Khuyến, phường Phan Đình Phùng, TP.Thái Nguyên. <sup>Sắp khai trương</sup></p>
+                <p>MEDIAMART TÔN ĐỨC THẮNG - Số 171 Tôn Đức Thắng, quận Liên Chiểu, TP.Đà Nẵng. <sup>Đã mở bán</sup></p>
+                <p>MEDIAMART DUY TÂN - Số 160 Núi Thành, phường Hòa Thuận Đông, quận Hải Châu, TP.Đà Nẵng. <sup>Đã mở bán</sup></p>
+                <p>MEDIAMART QUẢNG BÌNH - Số 54 Lý Thường Kiệt, TP.Đồng Hới, tỉnh Quãng Bình. <sup>Sắp khai trương</sup></p>
+                <p>MEDIAMART QUẢNG TRỊ - khu phố 8, phường 1, TP.Đông Hà, tỉnh Quảng Trị. </p>
+                <p>MEDIAMART NGUYỄN VĂN LINH - Số 216 Nguyễn Văn Linh, P.Vĩnh Hưng, Q.Thanh Khê, TP.Đà Nẵng (Ngã tư Nguyễn Văn Linh - Đỗ Quang). <sup>Sắp khai trương</sup></p>
+                <p>MEDIAMART PHẠM VĂN ĐỒNG - Số 53 Phạm Văn Đồng, phường Vỹ Dạ, TP.Huế. <sup>Sắp khai trương</sup></p>
+                <p>MEDIAMART LÊ TRỌNG TẤN - Tây Mỗ, quận Hà Đông, Hà Nội (Gần Thiên ĐƯờng Bảo Sơn).</p>
+            </div>
+            <P style="color: #e3007b;">Mới Khai Trương:</P>
+            <div>
+                <p>MEDIAMART KHUẤT DUY TIẾN - Số 86-88 đường Khuất Duy Tiến, Q. Thanh Xuân, TP.Hà Nội. <sup>24/10/2020</sup></p>
+                <p>MEDIAMART BA VÌ - Số 260 đường Quảng Oai, thị trấn Tây Đằng, huyện Ba Vì, TP.Hà Nội (Dối diện Huyện Ủy Ba Vì). <sup>22/10/2020</sup></p>
+                <p>MEDIAMART LƯƠNG SƠN - Tiểu khu 11, thị trấn Lương Sơn, huyện Lương Sơn, tỉnh Hòa Bình. <sup>09/7/2020</sup></p>
+                <p>MEDIAMART THƯỜNG XUÂN - khu 4, thị trấn Thường Xuân, huyện THường Xuân, tỉnh Thanh Hóa. <sup>16/8/2020</sup></p>
+                <p>MEDIAMART PHỐ MÔI - Ngã 3 Môi, thôn Phố Môi mới, xã Quảng Tâm, thành phố Thanh Hóa (Đối diện bưu điện Môi). <sup>06/6/2020</sup></p>
+            </div>
+        </div>
+        <hr">
+        <hr>
+        <div class="footer__totalsytem row">
+            <div style="display: flex; justify-content: space-around;" class="col-12 col-md-6">
+                <ul>
+                    <li>TP. Hà Nội <span>(50)</span></li>
+                    <li>Hưng Yên <span>(11)</span></li>
+                    <li>Quảng Ninh <span>(12)</span></li>
+                    <li>Hà Nam <span>(5)</span></li>
+                    <li>Đà Nẵng <span>(3)</span></li>
+                </ul>
+                <ul>
+                    <li>Bắc Ninh <span>(10)</span></li>
+                    <li>Nam Định <span>(12)</span></li>
+                    <li>Thái Bình <span>(9)</span></li>
+                    <li>Yên Bái <span>(3)</span></li>
+                    <li>Quảng Trị <span>(5)</span></li>
+                </ul>
+                <ul>
+                    <li>Hải Phòng <span>(13)</span></li>
+                    <li>Nghệ An <span>(4)</span></li>
+                    <li>Thái Nguyên <span>(6)</span></li>
+                    <li>Lạng Sơn <span>(3)</span></li>
+                    <li>Quảng Ninh <span>(1)</span></li>
+                </ul>
+            </div>
+            <div style="display: flex;justify-content: space-around;" class="col-12 col-md-6">
+                <ul>
+                    <li>Hải Dương <span>(13)</span></li>
+                    <li>Lai Châu <span>(1)</span></li>
+                    <li>Thanh Hóa <span>(24)</span></li>
+                    <li>Hòa Bình <span>(5)</span></li>
+                    <li>Tp. Huế <span>(1)</span></li>
+                </ul>
+                <ul>
+                    <li>Bắc Giang <span>(7)</span></li>
+                    <li>Phú Thọ <span>(6)</span></li>
+                    <li>Vĩnh Phúc <span>(8)</span></li>
+                    <li>Ninh Bình <span>(11)</span></li>
+                </ul>
+                <ul>
+                    <li>Bắc Kan <span>(1)</span></li>
+                    <li>Lào Cai <span>(2)</span></li>
+                    <li>Tuyên Quang <span>(1)</span></li>
+                    <li>Hà Tĩnh <span>(3)</span></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footer__address">
+            <div style="font-size: 15px;">
+                <p>© 2007 Công ty Cổ phần MEDIAMART Việt Nam - ĐCĐK: 29F Hai Bà Trưng. GPĐKKD số: 0102516308 do Sở KHĐT TP.Hà Nội cấp ngày 15/11/2007.</p>
+                <p>Email <a href="">hotro@mediamart.com.vn</a> Điện thoại: 1900 6741. Fax: 0243 933 0766 </p>
+                <p >Website <a href="">mediamart.vn</a></p>
+            </div>
+        </div>
+        <hr>
+    </div>
+</body>
+<script src="./trangchu.js"></script>
+</html>
