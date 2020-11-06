@@ -1,9 +1,26 @@
+// add scrollTop icon 
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    var mybtn = document.getElementsByClassName("top")[0];
+    if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+      mybtn.style.display = "block";
+    } else {
+      mybtn.style.display = "none";
+    }
+}
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
 var iconNavibar = document.getElementById("icon-navibar");
 iconNavibar.addEventListener("click",function(){
     var catalog = document.getElementsByClassName("catalog")[0];
     catalog.classList.toggle("displaymenu__catalog")
 });
-// get product sale
+
+//  get product sale
 function getProducts() {
 
     return products = [
@@ -336,7 +353,7 @@ function getSmartphone() {
 
 function genSmartphone(product) {
     return `
-    <div class="product__sale col-12 col-md-6 col-lg-3" style="display: inline-block;">
+    <div class="product__sale col-12 col-md-6 col-lg-3">
         <div style="width:100%; height:250px">
             <img style="display: block; width: 25%; margin: 15px;" src="${product.logoInterret}" alt="">
             <a href="${product.productUrl}"><img id="image__product-sale" style="display: block; height:75%; width:100%; margin: 0 auto;object-fit:contain; transition: transform .2s;" src="${product.imageUrl}" alt=""></a>
@@ -465,7 +482,7 @@ function getLaptops() {
 };
 function genLaptop(product) {
     return `
-    <div class="product__sale col-12 col-md-6 col-lg-3" style="display: inline-block;">
+    <div class="product__sale col-12 col-md-6 col-lg-3">
         <div style="width:100%; height:250px">
             <img style="display: block; width: 25%; margin: 15px;" src="${product.logoInterret}" alt="">
             <a href="${product.productUrl}"><img id="image__product-sale" style="display: block; height:75%; width:100%; margin: 0 auto;object-fit:contain; transition: transform .2s;" src="${product.imageUrl}" alt=""></a>
@@ -603,7 +620,7 @@ function genAcessories(product) {
 function genAcessoriesHtml(acessories) {
     var content = ""
     for (var i = 0; i < acessories.length; i++){
-        content = content + genLaptop(acessories[i]);
+        content = content + genAcessories(acessories[i]);
     }
     return content;
 };
@@ -616,3 +633,5 @@ $(document).ready( function () {
     $('.catalog__product-laptop').append(genLaptopsHtml(getLaptops()));
     $('.catalog__accessories').append(genAcessoriesHtml(getAcessories()));
 });
+
+ 
