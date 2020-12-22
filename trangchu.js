@@ -235,11 +235,11 @@ function genItemProductHtml(product) {
     <div class="product__sale col-12 col-md-6 col-lg-3">
         <div style="width:100%; height:250px">
             <img style="display: block; width: 25%; margin: 15px;" src="${product.logoInterret}" alt="">
-            <a href="${product.productUrl}"><img id="image__product-sale" style="display: block; height:75%; width:100%; margin: 0 auto;object-fit:contain; transition: transform .2s;" src="${product.imageUrl}" alt=""></a>
+            <a href="#"><img id="image__product-sale" style="display: block; height:75%; width:100%; margin: 0 auto;object-fit:contain; transition: transform .2s;" src="${product.imageUrl}" alt=""></a>
         </div>
         <div style="width:100%; height:180px">
             <p style="margin-left: 5%;"><b style="color: #0072bc;font-size: larger;">${product.title1} </b> ${product.title2}</p>
-            <a style="color: black;" href="${product.productUrl}"><p style="margin-left: 5%;">${product.description}</p></a>
+            <a style="color: black;" href="#"><p style="margin-left: 5%;">${product.description}</p></a>
             <p style="color: #e3007b;margin-left: 5%; font-size: x-large;">${(formatMoney(product.price * (100 - product.saleOff) / 100)) + product.priceUnit}</p>
             <p style="text-decoration-line: line-through;margin-left: 5%;">${formatMoney(product.price) + product.priceUnit}</p>
             ${product.bonous != 0 ? `<p style="color: red;margin-left: 5%; margin-bottom: 5%;">Quà trị giá : <b>${formatMoney(product.bonous) + product.priceUnit}</b></p>` : ``}
@@ -359,11 +359,11 @@ function genSmartphone(product) {
     <div class="product__sale col-12 col-md-6 col-lg-3">
         <div style="width:100%; height:250px">
             <img style="display: block; width: 25%; margin: 15px;" src="${product.logoInterret}" alt="">
-            <a href="${product.productUrl}"><img id="image__product-sale" style="display: block; height:75%; width:100%; margin: 0 auto;object-fit:contain; transition: transform .2s;" src="${product.imageUrl}" alt=""></a>
+            <a href="#"><img id="image__product-sale" style="display: block; height:75%; width:100%; margin: 0 auto;object-fit:contain; transition: transform .2s;" src="${product.imageUrl}" alt=""></a>
         </div>
         <div style="width:100%; height:180px">
             <p style="margin-left: 5%;"><b style="color: #0072bc;font-size: larger;">${product.title1} </b> ${product.title2}</p>
-            <a style="color: black;" href="${product.productUrl}"><p style="margin-left: 5%;">${product.description}</p></a>
+            <a style="color: black;" href="#"><p style="margin-left: 5%;">${product.description}</p></a>
             <p style="color: #e3007b;margin-left: 5%; font-size: x-large;">${(formatMoney(product.price * (100 - product.saleOff) / 100)) + product.priceUnit}</p>
             <p style="text-decoration-line: line-through;margin-left: 5%;">${formatMoney(product.price) + product.priceUnit}</p>
             ${product.bonous != 0 ? `<p style="color: red;margin-left: 5%; margin-bottom: 5%;">Quà trị giá : <b>${formatMoney(product.bonous) + product.priceUnit}</b></p>` : ``}
@@ -488,11 +488,11 @@ function genLaptop(product) {
     <div class="product__sale col-12 col-md-6 col-lg-3">
         <div style="width:100%; height:250px">
             <img style="display: block; width: 25%; margin: 15px;" src="${product.logoInterret}" alt="">
-            <a href="${product.productUrl}"><img id="image__product-sale" style="display: block; height:75%; width:100%; margin: 0 auto;object-fit:contain; transition: transform .2s;" src="${product.imageUrl}" alt=""></a>
+            <a href="#"><img id="image__product-sale" style="display: block; height:75%; width:100%; margin: 0 auto;object-fit:contain; transition: transform .2s;" src="${product.imageUrl}" alt=""></a>
         </div>
         <div style="width:100%; height:180px">
             <p style="margin-left: 5%;"><b style="color: #0072bc;font-size: larger;">${product.title1} </b> ${product.title2}</p>
-            <a style="color: black;" href="${product.productUrl}"><p style="margin-left: 5%;">${product.description}</p></a>
+            <a style="color: black;" href="#"><p style="margin-left: 5%;">${product.description}</p></a>
             <p style="color: #e3007b;margin-left: 5%; font-size: x-large;">${(formatMoney(product.price * (100 - product.saleOff) / 100)) + product.priceUnit}</p>
             <p style="text-decoration-line: line-through;margin-left: 5%;">${formatMoney(product.price) + product.priceUnit}</p>
             ${product.bonous != 0 ? `<p style="color: red;margin-left: 5%; margin-bottom: 5%;">Quà trị giá : <b>${formatMoney(product.bonous) + product.priceUnit}</b></p>` : ``}
@@ -602,16 +602,17 @@ function getAcessories (){
         },
     ];
 };
+
 function genAcessories(product) {
     return `
     <div class="product__sale col-12 col-md-6 col-lg-3" style="display: inline-block;">
         <div style="width:100%; height:250px">
             <img style="display: block; width: 25%; margin: 15px;" src="${product.logoInterret}" alt="">
-            <a href="${product.productUrl}"><img id="image__product-sale" style="display: block; height:75%; width:100%; margin: 0 auto;object-fit:contain; transition: transform .2s;" src="${product.imageUrl}" alt=""></a>
+            <a href="#"><img id="image__product-sale" style="display: block; height:75%; width:100%; margin: 0 auto;object-fit:contain; transition: transform .2s;" src="${product.imageUrl}" alt=""></a>
         </div>
         <div style="width:100%; height:180px">
             <p style="margin-left: 5%;"><b style="color: #0072bc;font-size: larger;">${product.title1} </b> ${product.title2}</p>
-            <a style="color: black;" href="${product.productUrl}"><p style="margin-left: 5%;">${product.description}</p></a>
+            <a style="color: black;" href="#"><p style="margin-left: 5%;">${product.description}</p></a>
             <p style="color: #e3007b;margin-left: 5%; font-size: x-large;">${(formatMoney(product.price * (100 - product.saleOff) / 100)) + product.priceUnit}</p>
             <p style="text-decoration-line: line-through;margin-left: 5%;">${formatMoney(product.price) + product.priceUnit}</p>
             ${product.bonous != 0 ? `<p style="color: red;margin-left: 5%; margin-bottom: 5%;">Quà trị giá : <b>${formatMoney(product.bonous) + product.priceUnit}</b></p>` : ``}
