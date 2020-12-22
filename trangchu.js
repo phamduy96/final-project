@@ -1,4 +1,7 @@
 // add scrollTop icon 
+
+
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -420,7 +423,7 @@ function getLaptops() {
         },
         {
             logoInterret: "https://cdn.mediamart.vn/ProductOption/11-icon.png?v=03221",
-            imageUrl: "https://cdn.mediamart.vn/Product/thumb_-Me7qsu.png",
+            imageUrl: "https://cdn.mediamart.vn/Product/thumb_-dxuzGV.png",
             productUrl: "https://mediamart.vn/laptop/dell/laptop-dell-inspiron-3593-70205744-win10-i51035g1-bac.htm",
             title1: "DELL",
             title2: "CORE I5 || SSD 256GB",
@@ -508,7 +511,7 @@ function genLaptopsHtml(laptops) {
 
 // get acessories product
 function getAcessories (){
-    return acessories = [
+    return xxx = [
         {
             imageUrl: "https://cdn.mediamart.vn/Product/thumb_apple-tai-nghe-airpods-2-hop-sac-day-mv7n2vna-56p3vJ.jpg",
             productUrl: "https://mediamart.vn/tai-nghe/apple-airpod/apple-tai-nghe-airpods-2-hop-sac-day-mv7n2vna.htm",
@@ -631,7 +634,7 @@ $(document).ready( function () {
     $('.catalog__product-sale').append(genProductsHtml(getProducts()));
     $('.catalog__product-smartphone').append(genSmartphonesHtml(getSmartphone()));
     $('.catalog__product-laptop').append(genLaptopsHtml(getLaptops()));
-    $('.catalog__accessories').append(genAcessoriesHtml(getAcessories()));
+    $('.catalog__accessories').append(genAcessoriesHtml(getAcessories ()));
 });
 
  

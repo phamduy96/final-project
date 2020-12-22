@@ -5,6 +5,7 @@
 }
 html, body{
     width: 100%;
+    scroll-behavior: smooth;
 }
 .top {
     position: fixed;
@@ -87,7 +88,7 @@ html, body{
 }
 .displaymenu__catalog{
     display: none;
-    z-index: 3;
+    z-index: 99;
 }
 #icon-navibar:hover{
     color: white;
@@ -405,7 +406,7 @@ html, body{
 }
 .footer__title-product{
     display: flex;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 .footer__title-product div{
     margin-left: 20px;
@@ -518,5 +519,23 @@ html, body{
     }
     .typeof__mediamart li{
         font-size: 13px;
+    }
+
+    .list-typeof__mediamart{
+        overflow-x: scroll;
+        white-space: nowrap;
+        display: block;
+    }
+
+    .list-typeof__mediamart li a {
+        padding: 0 5px;
+    }
+
+    .footer__pay{
+        text-align: center;
+    }
+
+    .footer__pay span {
+        display: block;
     }
 }
